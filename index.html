@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f4f0e7">
+    <meta name="description" content="Découvrez les romans ivoiriens et leurs clés de lecture : résumés, personnages, thèmes et analyses.">
+    <title>L’Encrier d’Éburnie | Lire la littérature ivoirienne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#accueil" aria-label="L’Encrier d’Éburnie, accueil">
+            <span class="brand-symbol" aria-hidden="true">É</span>
+            <span class="brand-name">L’Encrier <small>d’Éburnie</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Navigation principale">
+            <a class="active" href="#bibliotheque">Bibliothèque</a>
+            <a href="#methode">Clés de lecture</a>
+            <a href="#apropos">À propos</a>
+        </nav>
+        <a class="header-action" href="#bibliotheque">Explorer les œuvres <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+        <section class="hero" id="accueil">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> La littérature ivoirienne, en profondeur</p>
+                <h1>Des livres à lire.<br><em>Des mondes à comprendre.</em></h1>
+                <p class="hero-description">Entrez dans les romans de Côte d’Ivoire grâce à des résumés clairs, des analyses rigoureuses et des repères pour mieux interpréter chaque œuvre.</p>
+                <div class="hero-actions">
+                    <a class="button-primary" href="#bibliotheque">Ouvrir la bibliothèque <span aria-hidden="true">↓</span></a>
+                    <span class="hero-note">Auteurs · œuvres · clés de lecture</span>
+                </div>
+            </div>
+            <div class="hero-art" aria-label="Livres et motifs inspirés de l’art textile ivoirien">
+                <div class="sun-disc"></div>
+                <div class="book book-back"><span>RÉCITS<br>IVOIRIENS</span></div>
+                <div class="book book-front"><span class="cover-overline">LITTÉRATURE</span><strong>Lire<br>Éburnie</strong><span class="cover-rule"></span><span class="cover-author">UNE BIBLIOTHÈQUE VIVANTE</span></div>
+                <div class="art-caption"><span>01</span><span>Lire, comprendre, transmettre</span></div>
+            </div>
+            <div class="hero-bottom"><span>UNE AUTRE FAÇON D’ENTRER DANS LES LIVRES</span><span>ABIDJAN · CÔTE D’IVOIRE</span></div>
+        </section>
+
+        <section class="intro-band" id="methode">
+            <p>La lecture ne s’arrête pas à la dernière page.</p>
+            <p>Chaque fiche relie le récit à ses personnages, ses thèmes et son époque, pour nourrir une lecture personnelle ou un travail scolaire.</p>
+            <a href="#bibliotheque" aria-label="Aller à la bibliothèque">↓</a>
+        </section>
+
+        <section class="library" id="bibliotheque">
+            <div class="section-top">
+                <div>
+                    <p class="eyebrow"><span></span> La bibliothèque</p>
+                    <h2>Choisir une œuvre,<br><em>commencer une lecture.</em></h2>
+                </div>
+                <p class="section-intro">Des classiques aux voix contemporaines, explorez les récits qui racontent la Côte d’Ivoire et ses transformations.</p>
+            </div>
+
+            <div class="library-controls">
+                <label class="search-box" for="bookSearch">
+                    <span aria-hidden="true">⌕</span>
+                    <input id="bookSearch" type="search" placeholder="Rechercher un titre, un auteur, un thème…" autocomplete="off">
+                    <kbd>/</kbd>
+                </label>
+                <div class="filter-group" role="group" aria-label="Filtrer les œuvres par genre">
+                    <button class="filter-chip selected" type="button" data-filter="all" aria-pressed="true">Tous les genres</button>
+                    <button class="filter-chip" type="button" data-filter="roman" aria-pressed="false">Romans</button>
+                    <button class="filter-chip" type="button" data-filter="poesie" aria-pressed="false">Poésie</button>
+                    <button class="filter-chip" type="button" data-filter="theatre" aria-pressed="false">Théâtre</button>
+                    <button class="filter-chip" type="button" data-filter="autres" aria-pressed="false">Contes &amp; récits</button>
+                </div>
+            </div>
+
+            <p class="catalog-count" id="catalogCount" aria-live="polite">50 œuvres à explorer</p>
+            <div class="book-grid" id="bookGrid">
+                <article class="book-card" data-kind="roman" data-period="classique" data-search="les soleils des independances ahmadou kourouma fama salimata independance tradition modernite satire">
+                    <a href="#fiche-soleils" class="book-image image-soleils" aria-label="Lire la fiche des Soleils des indépendances">
+                        <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Livre ouvert dans une lumière chaude" loading="lazy">
+                        <span class="image-index">01 / ROMAN</span>
+                        <span class="book-cover-label">LES SOLEILS<br>DES INDÉPENDANCES</span>
+                    </a>
+                    <div class="book-card-content">
+                        <div class="book-meta"><span>Ahmadou Kourouma</span><span>1968</span></div>
+                        <h3>Les Soleils des indépendances</h3>
+                        <p>Un ancien chef malinké affronte un monde bouleversé par les indépendances et la fin de l’ordre ancien.</p>
+                        <div class="tag-row"><span>Indépendance</span><span>Tradition</span><span>Satire</span></div>
+                        <button class="read-button" type="button" data-open="fiche-soleils">Découvrir l’analyse <span aria-hidden="true">↗</span></button>
+                    </div>
+                </article>
+
+                <article class="book-card" data-kind="roman" data-period="classique" data-search="climbie bernard binlin dadié autobiographique enfance colonisation école identité formation">
+                    <a href="#fiche-climbie" class="book-image image-climbie" aria-label="Lire la fiche de Climbié">
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Pages d’un livre ancien ouvertes" loading="lazy">
+                        <span class="image-index">02 / ROMAN</span>
+                        <span class="book-cover-label">CLIMBIÉ</span>
+                    </a>
+                    <div class="book-card-content">
+                        <div class="book-meta"><span>Bernard Binlin Dadié</span><span>1956</span></div>
+                        <h3>Climbié</h3>
+                        <p>Le parcours d’un jeune garçon, de l’enfance à la formation, dans une société coloniale en mutation.</p>
+                        <div class="tag-row"><span>École</span><span>Colonisation</span><span>Identité</span></div>
+                        <button class="read-button" type="button" data-open="fiche-climbie">Découvrir l’analyse <span aria-hidden="true">↗</span></button>
+                    </div>
+                </article>
+
+                <article class="book-card" data-kind="autres" data-period="moderne" data-search="reine pokou veronique tadjo véronique tadjo baoulé mythe exil sacrifice mémoire réécriture">
+                    <a href="#fiche-pokou" class="book-image image-pokou" aria-label="Lire la fiche de Reine Pokou">
+                        <img src="https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Silhouette face à une lumière de coucher de soleil" loading="lazy">
+                        <span class="image-index">03 / RÉCIT</span>
+                        <span class="book-cover-label">REINE<br>POKOU</span>
+                    </a>
+                    <div class="book-card-content">
+                        <div class="book-meta"><span>Véronique Tadjo</span><span>2005</span></div>
+                        <h3>Reine Pokou</h3>
+                        <p>Une réécriture littéraire d’un récit fondateur, entre mémoire collective, exil et choix tragique.</p>
+                        <div class="tag-row"><span>Mythe</span><span>Mémoire</span><span>Réécriture</span></div>
+                        <button class="read-button" type="button" data-open="fiche-pokou">Découvrir l’analyse <span aria-hidden="true">↗</span></button>
+                    </div>
+                </article>
+
+                <article class="book-card" data-kind="roman" data-period="moderne" data-search="allah n'est pas obligé ahmadou kourouma birahima enfant soldat guerre libéria sierra leone enfance langage">
+                    <a href="#fiche-allah" class="book-image image-allah" aria-label="Lire la fiche d’Allah n’est pas obligé">
+                        <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Rayonnages de livres dans une bibliothèque" loading="lazy">
+                        <span class="image-index">04 / ROMAN</span>
+                        <span class="book-cover-label">ALLAH N’EST<br>PAS OBLIGÉ</span>
+                    </a>
+                    <div class="book-card-content">
+                        <div class="book-meta"><span>Ahmadou Kourouma</span><span>2000</span></div>
+                        <h3>Allah n’est pas obligé</h3>
+                        <p>Birahima raconte la guerre et son expérience d’enfant-soldat avec une voix directe et dérangeante.</p>
+                        <div class="tag-row"><span>Enfance</span><span>Guerre</span><span>Langage</span></div>
+                        <button class="read-button" type="button" data-open="fiche-allah">Découvrir l’analyse <span aria-hidden="true">↗</span></button>
+                    </div>
+                </article>
+            </div>
+            <p class="no-results" id="noResults" hidden>Aucune œuvre ne correspond à cette recherche.</p>
+        </section>
+
+        <section class="reading-method">
+            <div class="method-heading"><p class="eyebrow"><span></span> Une lecture guidée</p><h2>Lire avec attention.<br><em>Comprendre avec nuance.</em></h2></div>
+            <div class="method-steps">
+                <article><span>01</span><h3>Suivre le récit</h3><p>Un résumé ordonné pour retrouver les étapes importantes sans perdre le fil de l’œuvre.</p></article>
+                <article><span>02</span><h3>Observer les voix</h3><p>Les personnages, leurs choix et la manière dont le narrateur organise notre regard.</p></article>
+                <article><span>03</span><h3>Mettre en contexte</h3><p>Des pistes pour relier les thèmes à l’époque, à la société et aux formes littéraires.</p></article>
+            </div>
+        </section>
+
+        <section class="newsletter" id="apropos">
+            <div><p class="eyebrow"><span></span> Le carnet de lecture</p><h2>La littérature ivoirienne<br>se lit aussi ensemble.</h2><p>Recevez les nouvelles fiches et les prochains parcours de lecture.</p></div>
+            <form id="newsletterForm" class="newsletter-form">
+                <label class="sr-only" for="newsletterEmail">Votre adresse e-mail</label>
+                <input id="newsletterEmail" type="email" placeholder="Votre adresse e-mail" required>
+                <button type="submit" aria-label="S’inscrire à la lettre d’information">M’inscrire <span aria-hidden="true">→</span></button>
+                <p id="newsletterMessage" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="#accueil"><span class="brand-symbol" aria-hidden="true">É</span><span class="brand-name">L’Encrier <small>d’Éburnie</small></span></a>
+        <p>Un espace de découverte et de lecture de la littérature ivoirienne.</p>
+        <a href="#accueil">Retour en haut ↑</a>
+    </footer>
+
+    <dialog class="book-dialog" id="bookDialog" aria-labelledby="dialogTitle">
+        <form method="dialog"><button class="dialog-close" aria-label="Fermer la fiche">×</button></form>
+        <div class="dialog-content" id="dialogContent"></div>
+    </dialog>
+
+    <template id="fiche-soleils">
+        <p class="eyebrow"><span></span> Fiche de lecture · Roman</p>
+        <h2 id="dialogTitle">Les Soleils des indépendances</h2>
+        <p class="dialog-byline">Ahmadou Kourouma · 1968</p>
+        <div class="analysis-block"><h3>Résumé détaillé</h3><p>Fama Doumbouya, descendant d’une lignée de chefs malinkés, vit dans une capitale d’une république africaine récemment indépendante. Il porte le titre de « dernier des Doumbouya », mais ce prestige ne lui assure plus ni pouvoir ni aisance. Les cérémonies funéraires, où il récite les louanges des morts, lui procurent un revenu précaire. Salimata, son épouse, travaille sans relâche et porte la douleur d’un passé marqué par la violence et par l’impossibilité d’avoir un enfant.</p><p>Le roman suit Fama dans ses déplacements entre la ville et le Horodougou, région de ses origines. Il y retrouve les traces d’un monde régi par les alliances, les lignages et les rites, tandis que l’État moderne impose ses propres institutions et ses nouvelles élites. Les indépendances n’ont pas rendu à Fama la place qu’il imaginait : la bureaucratie et les rapports de pouvoir ont remplacé l’ordre colonial sans restaurer l’autorité traditionnelle. Son arrestation, puis son retour, rendent visible son inadéquation croissante à ce nouvel univers. La fin, marquée par sa mort lors d’un passage difficile, donne au parcours une dimension à la fois tragique et symbolique.</p></div>
+        <div class="analysis-columns"><div><h3>Personnages repères</h3><ul><li><strong>Fama :</strong> héritier déclassé, partagé entre nostalgie du pouvoir ancien et refus du présent.</li><li><strong>Salimata :</strong> épouse laborieuse, dont le parcours révèle les violences faites aux femmes et le poids de la stérilité dans le regard social.</li></ul></div><div><h3>Thèmes essentiels</h3><ul><li>La désillusion après les indépendances.</li><li>Le conflit entre tradition et institutions modernes.</li><li>La pauvreté, l’exil intérieur et la perte de statut.</li></ul></div></div>
+        <div class="teacher-note"><strong>Clé de lecture</strong><p>Le titre associe les « soleils » à une promesse historique devenue ironique. Kourouma fait entendre une langue littéraire nourrie de rythmes et de tournures orales : cette voix participe à la satire politique autant qu’à la construction d’un point de vue culturel.</p></div>
+        <p class="source-note">Cette fiche propose une lecture synthétique : elle ne remplace pas la lecture du roman. Vérifiez les citations et l’édition demandée par votre enseignant.</p>
+    </template>
+
+    <template id="fiche-climbie">
+        <p class="eyebrow"><span></span> Fiche de lecture · Roman</p>
+        <h2 id="dialogTitle">Climbié</h2>
+        <p class="dialog-byline">Bernard Binlin Dadié · 1956</p>
+        <div class="analysis-block"><h3>Résumé détaillé</h3><p>Le roman suit Climbié depuis son enfance en Côte d’Ivoire jusqu’à sa formation et à ses premières expériences dans le monde colonial. L’école occupe une place centrale : elle ouvre l’accès à l’écriture et à de nouvelles possibilités, mais transmet aussi les normes et les hiérarchies de l’administration française. À travers les étapes de son parcours, le personnage découvre l’écart entre les promesses de l’instruction et les limites imposées aux colonisés.</p><p>Le récit s’attache aux apprentissages, aux déplacements et aux rencontres qui façonnent le regard du jeune homme. La trajectoire individuelle devient ainsi un moyen de raconter une époque : les structures traditionnelles coexistent avec l’école et l’appareil colonial, sans que les rapports de pouvoir disparaissent. Climbié apprend à lire le monde qui l’entoure et à mesurer le prix de l’intégration. Le roman porte la marque d’un parcours personnel, mais il donne également à voir l’expérience collective d’une génération confrontée à la colonisation.</p></div>
+        <div class="analysis-columns"><div><h3>Personnages repères</h3><ul><li><strong>Climbié :</strong> personnage en formation, dont l’expérience relie enfance, apprentissage et prise de conscience.</li><li><strong>La communauté :</strong> famille, maîtres et figures d’autorité composent les étapes de son éducation.</li></ul></div><div><h3>Thèmes essentiels</h3><ul><li>L’école et l’accès au savoir.</li><li>Les contradictions de l’ordre colonial.</li><li>La formation de soi et l’appartenance culturelle.</li></ul></div></div>
+        <div class="teacher-note"><strong>Clé de lecture</strong><p>Le parcours de Climbié peut se lire comme un récit de formation : les expériences successives transforment sa compréhension de lui-même et de la société. La dimension autobiographique invite à rapprocher mémoire personnelle et histoire collective, sans confondre récit littéraire et document historique.</p></div>
+        <p class="source-note">Cette fiche synthétise des axes de lecture ; les épisodes précis et leur ordre peuvent varier selon le découpage de votre édition.</p>
+    </template>
+
+    <template id="fiche-pokou">
+        <p class="eyebrow"><span></span> Fiche de lecture · Récit</p>
+        <h2 id="dialogTitle">Reine Pokou</h2>
+        <p class="dialog-byline">Véronique Tadjo · 2005</p>
+        <div class="analysis-block"><h3>Résumé détaillé</h3><p>Dans Reine Pokou, Véronique Tadjo reprend une figure majeure de la mémoire baoulé : la reine Pokou, associée au récit d’une migration et à la fondation d’un peuple. Face à la menace qui pèse sur son groupe, la reine doit conduire les siens vers un lieu où ils pourront survivre. Le passage d’un fleuve devient le moment décisif du récit ; la tradition rapporte qu’un sacrifice est demandé pour permettre la traversée.</p><p>Tadjo ne se contente pas de répéter une version unique de la légende. Le texte interroge la manière dont une communauté transmet son origine et la place qu’elle attribue à une femme dans ce récit fondateur. La narration explore la mémoire, la responsabilité du pouvoir et le coût humain de la survie collective. En faisant varier les voix et les perspectives, l’autrice rend perceptible la distance entre événement, légende et réécriture contemporaine.</p></div>
+        <div class="analysis-columns"><div><h3>Figure centrale</h3><ul><li><strong>Pokou :</strong> dirigeante confrontée à un choix tragique, à la fois figure de pouvoir, de maternité et de mémoire.</li><li><strong>Le peuple :</strong> communauté menacée dont la survie fonde une mémoire partagée.</li></ul></div><div><h3>Thèmes essentiels</h3><ul><li>Le mythe et la transmission.</li><li>Le sacrifice et la responsabilité politique.</li><li>La mémoire collective et le point de vue des femmes.</li></ul></div></div>
+        <div class="teacher-note"><strong>Clé de lecture</strong><p>Il s’agit d’une réécriture littéraire d’un récit transmis, non d’un compte rendu historique neutre. On peut étudier comment les variations de voix déplacent la question : de « que raconte la légende ? » vers « qui la raconte, et que choisit-on de retenir ? »</p></div>
+        <p class="source-note">Le récit traditionnel connaît plusieurs versions. Pour un devoir, distinguez bien la légende rapportée et les choix de réécriture propres à Tadjo.</p>
+    </template>
+
+    <template id="fiche-allah">
+        <p class="eyebrow"><span></span> Fiche de lecture · Roman</p>
+        <h2 id="dialogTitle">Allah n’est pas obligé</h2>
+        <p class="dialog-byline">Ahmadou Kourouma · 2000</p>
+        <div class="analysis-block"><h3>Résumé détaillé</h3><p>Birahima, enfant ivoirien, raconte comment la guerre le conduit à quitter son pays et à traverser le Liberia puis la Sierra Leone. À la recherche d’un membre de sa famille, il se retrouve pris dans les conflits armés et devient enfant-soldat. Il décrit les groupes armés, les déplacements et les violences à hauteur d’enfant, avec un mélange de crudité, d’humour noir et d’incompréhension.</p><p>Pour tenter de donner un sens à ce qu’il voit, Birahima s’appuie sur plusieurs dictionnaires et explique les mots qu’il emploie. Cette manière de raconter met en scène sa lutte pour comprendre un monde où les adultes et les chefs de guerre prétendent agir au nom d’idées ou de croyances, tandis que les enfants subissent les conséquences des combats. Le récit refuse une représentation héroïque de la guerre : il insiste sur la vulnérabilité, la manipulation et la destruction de l’enfance.</p></div>
+        <div class="analysis-columns"><div><h3>Personnages repères</h3><ul><li><strong>Birahima :</strong> narrateur enfant-soldat, dont la parole directe expose l’absurdité de la violence.</li><li><strong>Yacouba :</strong> compagnon de route qui mêle débrouillardise, croyances et intérêt personnel.</li></ul></div><div><h3>Thèmes essentiels</h3><ul><li>Les enfants soldats et la guerre civile.</li><li>La manipulation du langage et des croyances.</li><li>La mémoire, la survie et la responsabilité des adultes.</li></ul></div></div>
+        <div class="teacher-note"><strong>Clé de lecture</strong><p>Le dispositif des dictionnaires est central : il rend visible l’écart entre les mots officiels et l’expérience concrète de Birahima. L’humour de la narration ne diminue pas la gravité des événements ; il met plutôt en crise les discours qui prétendent les justifier.</p></div>
+        <p class="source-note">Le roman traite de violences de guerre. Cette synthèse évite les détails graphiques et ne remplace pas la lecture intégrale de l’œuvre.</p>
+    </template>
+</body>
+</html>
